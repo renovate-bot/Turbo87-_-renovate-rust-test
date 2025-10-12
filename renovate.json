@@ -7,7 +7,8 @@
       "managerFilePatterns": ["/^rust-toolchain.toml$/"],
       "matchStrings": ["channel = \"(?<currentValue>.*?)\""],
       "depNameTemplate": "rust",
-      "datasourceTemplate": "rust-version"
+      "datasourceTemplate": "rust-version",
+      "rangeStrategyTemplate": "pin"
     }
   ]
 }
